@@ -1,0 +1,6 @@
+node_modules/*
+.idea/*
+logs/*
+.project
+.ssh/*
+logs/serverLog.log

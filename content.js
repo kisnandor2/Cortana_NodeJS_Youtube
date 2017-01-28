@@ -21,22 +21,10 @@ var actualCode = '(' + function() {
 					player.previousVideo()
 					break;
 				case 'up':
-					var volume = player.getVolume();
-					if (volume <= 0.8){
-						player.setVolume(volume + 0.2);
-					}
-					else{
-						player.setVolume(1);
-					}
+					player.setVolume(100);
 					break
 				case 'down':
-					var volume = player.getVolume();
-					if (volume >= 0.2){
-						player.setVolume(volume - 0.2);
-					}
-					else{
-						player.setVolume(0);
-					}
+					player.setVolume(0);
 					break;
 				default:
 					console.log("No such operation found!", message);

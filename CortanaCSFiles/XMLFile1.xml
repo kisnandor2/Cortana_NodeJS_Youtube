@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.2" >
+<CommandSet xml:lang="en-us" Name="CustomCommandSet">
+  <CommandPrefix>Please</CommandPrefix>
+  <Example>Youtube</Example>
+  <Command Name="Start">
+    <Example>Start</Example>
+    <ListenFor>Start</ListenFor>
+    <Feedback>Starting the youtube video</Feedback>
+    <Navigate />
+  </Command>
+
+  <Command Name="Stop">
+    <Example>Stop</Example>
+    <ListenFor>Stop</ListenFor>
+    <Feedback>Stopping the youtube video</Feedback>
+    <Navigate />
+  </Command>
+
+  <Command Name="Pause">
+    <Example>Pause</Example>
+    <ListenFor>Pause</ListenFor>
+    <Feedback>Pauseing the youtube video</Feedback>
+    <Navigate />
+  </Command>
+
+  <Command Name="Next">
+    <Example>Next</Example>
+    <ListenFor>Next</ListenFor>
+    <Feedback>Next youtube video</Feedback>
+    <Navigate />
+  </Command>
+
+  <Command Name="Prev">
+    <Example>Previous</Example>
+    <ListenFor>Previous</ListenFor>
+    <Feedback>Previous youtube video</Feedback>
+    <Navigate />
+  </Command>
+
+  <Command Name="Up">
+    <Example>Up</Example>
+    <ListenFor>Up</ListenFor>
+    <Feedback>Maximum volume</Feedback>
+    <Navigate />
+  </Command>
+
+  <Command Name="Down">
+    <Example>Down</Example>
+    <ListenFor>Down</ListenFor>
+    <Feedback>Zero volume</Feedback>
+    <Navigate />
+  </Command>
+
+</CommandSet>
+</VoiceCommands>
